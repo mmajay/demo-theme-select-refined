@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.product_subheading.value }}",
+            "text": "{{ product.vendor }}",
             "text_style": "subtitle"
           }
         },
