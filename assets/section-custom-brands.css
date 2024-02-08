@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.custom-brands__section-heading {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
 .custom-brands__image-container::-webkit-scrollbar {
   width: 5px;
   height: 5px;

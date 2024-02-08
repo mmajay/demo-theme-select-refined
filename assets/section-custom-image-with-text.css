@@ -18,7 +18,7 @@
 }
 
 .cutome-image-with-text__heading {
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
   font-weight: 600;
   margin-bottom: 10px;
@@ -89,7 +89,8 @@ a {
 
   .cutome-image-with-text__image-container {
     padding-bottom: 30%;
-    width: 80%;
+    width: 76%;
+    flex-shrink: 0;
   }
 
   .cutome-image-with-text__content-container {

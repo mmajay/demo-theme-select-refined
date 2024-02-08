@@ -1,0 +1,108 @@
+{{ 'section-custom-products-slider.css' | asset_url | stylesheet_tag }}
+
+{% comment %}
+  <script src="{{"splide.min.js" | asset_url }}" defer></script>
+  {{ 'splide.min.css' | asset_url | stylesheet_tag }}
+{% endcomment %}
+
+{% style %}
+  .padding-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top | divided_by: 2 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | divided_by: 2 }}px;
+    }
+
+  @media (min-width: 750px) {
+      .padding-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+{% endstyle %}
+
+<div class="custom-products-slider padding-{{ section.id }}">
+  <div class="page-width">
+    {% if section.settings.section_heading != blank %}
+      <h2 class="h2">{{ section.settings.section_heading }}</h2>
+    {% endif %}
+
+    <custom-slider>
+      <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {% for product in section.settings.product_list %}
+              <li class="splide__slide">
+                {% render 'custom-product-card', product: product, section_id: section.id %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </custom-slider>
+  </div>
+</div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+  defer
+></script>
+<link
+  href="  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+  rel="stylesheet"
+>
+
+<script src="{{ "section-custom-products-slider.js" | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Custom Products Slider",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Select List of Products"
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Individual Styles Redefined"
+    },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Select Products",
+      "limit": 10
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom Products Slider"
+    }
+  ]
+}
+{% endschema %}

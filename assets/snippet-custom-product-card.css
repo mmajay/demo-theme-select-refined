@@ -1,0 +1,24 @@
+.custom-product-card__link {
+  color: #181818;
+}
+
+.custom-product-card__price {
+  color: red;
+}
+
+.custom-product-card__image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-product-card__title {
+  font-size: 15px;
+  display: block;
+  color: #181818;
+  font-weight: 600;
+}
+
+.custom-product-card__vendor {
+  color: gray;
+  font-weight: 600;
+}

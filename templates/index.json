@@ -1,51 +1,12 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "custom_image_with_text_yhCBHJ": {
       "type": "custom-image-with-text",
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/hero-image.webp",
         "mobile_image": "shopify:\/\/shop_images\/hero-image.webp",
         "heading": "Wear the Story of Every Moment with Distinction",
-        "heading_link": "",
+        "heading_link": "#",
         "heading_color": "#181818",
         "description": "<p>Each piece speaks of moments lived, memories made, and a future of distinction.<\/p>",
         "description_color": "#838282",
@@ -53,7 +14,7 @@
         "button_one_link": "",
         "button_two_lebel": "SHOP TOPS",
         "button_two_link": "",
-        "content_padding": 15,
+        "content_padding": 40,
         "vertical_alignment": "end",
         "padding_top": 36,
         "padding_bottom": 36
@@ -188,12 +149,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_products_slider_c4VVKK": {
+      "type": "custom-products-slider",
+      "settings": {
+        "section_heading": "Individual Styles Redefined",
+        "product_list": [
+          "highland-tee-white",
+          "highland-tee-worn-black",
+          "black-stripe-spring-oxford-shirt",
+          "lean-dean-dry-gentle-worn",
+          "lean-dean-plain-stone",
+          "chore-coat-brown-duck",
+          "men-black-grey-checked-pure-cotton-casual-shirt",
+          "men-black-slim-fit-casual-shirt",
+          "robby-le-bleue-denim-jacket",
+          "jude-navy-chevron-shirt"
+        ],
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "image_banner",
     "custom_image_with_text_yhCBHJ",
     "custom_collections_list_7ginNC",
-    "custom_brands_MBXwJw"
+    "custom_brands_MBXwJw",
+    "custom_products_slider_c4VVKK"
   ]
 }
