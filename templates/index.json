@@ -39,37 +39,161 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "custom_image_with_text_yhCBHJ": {
+      "type": "custom-image-with-text",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
+        "desktop_image": "shopify:\/\/shop_images\/hero-image.webp",
+        "mobile_image": "shopify:\/\/shop_images\/hero-image.webp",
+        "heading": "Wear the Story of Every Moment with Distinction",
+        "heading_link": "",
+        "heading_color": "#181818",
+        "description": "<p>Each piece speaks of moments lived, memories made, and a future of distinction.<\/p>",
+        "description_color": "#838282",
+        "button_one_lebel": "SHOP SHIRTS",
+        "button_one_link": "",
+        "button_two_lebel": "SHOP TOPS",
+        "button_two_link": "",
+        "content_padding": 15,
+        "vertical_alignment": "end",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_collections_list_7ginNC": {
+      "type": "custom-collections-list",
+      "blocks": {
+        "slide_BNptDp": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
+            "collection_title": "Shirts",
+            "collection_title_link": "#"
+          }
+        },
+        "slide_yWEQ7R": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
+            "collection_title": "T-Shirts",
+            "collection_title_link": "#"
+          }
+        },
+        "slide_qhUjxd": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
+            "collection_title": "Bottoms",
+            "collection_title_link": ""
+          }
+        },
+        "slide_3rbThY": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
+            "collection_title": "Tops",
+            "collection_title_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_BNptDp",
+        "slide_yWEQ7R",
+        "slide_qhUjxd",
+        "slide_3rbThY"
+      ],
+      "settings": {
+        "section_heading": "Shop by Categories",
+        "show_all_text": "See All",
+        "show_all_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_brands_MBXwJw": {
+      "type": "custom-brands",
+      "blocks": {
+        "slide_MAAxwz": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Stela.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_jcpNGE": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/CROWN.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_JpQXyH": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Amiga.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_BtAz4w": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Helen_Smith.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_wdqxRY": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Ward_Allen.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_azXypG": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/SC.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_Uy6Yyy": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Bart_e2ec285e-2155-4401-b91b-653a61c5f216.svg",
+            "brand_link": "#"
+          }
+        },
+        "slide_fW4AX3": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Johnson_Berg.svg",
+            "brand_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MAAxwz",
+        "slide_jcpNGE",
+        "slide_JpQXyH",
+        "slide_BtAz4w",
+        "slide_wdqxRY",
+        "slide_azXypG",
+        "slide_Uy6Yyy",
+        "slide_fW4AX3"
+      ],
+      "settings": {
+        "section_heading": "FEATURED BRANDS",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "custom_image_with_text_yhCBHJ",
+    "custom_collections_list_7ginNC",
+    "custom_brands_MBXwJw"
   ]
 }

@@ -1,23 +1,10 @@
+{{ 'section-custom-collections-list.css' | asset_url | stylesheet_tag }}
+
 {% style %}
   .padding-{{ section.id }} {
       padding-top: {{ section.settings.padding_top | divided_by: 2 }}px;
       padding-bottom: {{ section.settings.padding_bottom | divided_by: 2 }}px;
     }
-
-  .custom-collections-list__image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-  }
-
-  .custom-collections-list__title {
-    margin-top: 16px;
-    font-weight: 600;
-    color: #181818;
-    font-size: 22px;
-    display: inline-block;
-  }
 
   @media (min-width: 750px) {
       .padding-{{ section.id }} {
@@ -31,7 +18,7 @@
   <div class="page-width">
     <div class="custom-collections-list__section-header">
       <h2 class="h3 featured-products__heading">{{ section.settings.section_heading }}</h2>
-      <a href="/collections" class="button button--simple-move">
+      <a href="{{ section.settings.show_all_button_link }}" class="button button--simple-move">
         <span>{{ section.settings.show_all_text }}</span>
         <span>
           <svg class="icon" width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">

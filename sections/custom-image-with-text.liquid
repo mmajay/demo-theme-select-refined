@@ -45,7 +45,7 @@
           {%- if section.settings.heading != blank -%}
             <a
               {% if section.settings.heading_link == blank %}
-                role="link" aria-disabled="true"
+                role="link" aria-disabled="false"
               {% else %}
                 href="{{ section.settings.heading_link }}"
               {% endif %}

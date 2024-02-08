@@ -1,28 +1,9 @@
+{{ 'section-custom-brands.css' | asset_url | stylesheet_tag }}
+
 {% style %}
   .padding-{{ section.id }} {
       padding-top: {{ section.settings.padding_top | divided_by: 2 }}px;
       padding-bottom: {{ section.settings.padding_bottom | divided_by: 2 }}px;
-    }
-
-    .custom-brands__image-container{
-      display:flex;
-      column-gap:60px;
-       overflow-x:auto;
-      align-items:center;
-    }
-
-    .custom-brands__image-container::-webkit-scrollbar{
-      width:5px;
-      height:5px;
-      opacity:0.1;
-    }
-    .custom-brands__image-container::-webkit-scrollbar-thumb {
-    background: lightgray;
-    border-radius: 10px;
-    }
-
-    .custom-brands__image img{
-      height:50px;
     }
 
   @media (min-width: 750px) {
@@ -30,11 +11,6 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
-
-      .custom-brands__image-container{
-
-      justify-content : space-between;
-    }
     }
 {% endstyle %}
 
@@ -66,7 +42,7 @@
       "type": "text",
       "id": "section_heading",
       "label": "Section Heading",
-      "default": "Shop by Categories"
+      "default": "FEATURED BRANDS"
     },
     {
       "type": "range",
