@@ -176,27 +176,27 @@
         "heading_Vmd769": {
           "type": "heading",
           "settings": {
-            "heading": "Limited Time Only.The Sale is Coming to a Close Soon",
+            "heading": "<strong>Limited Time Only.The Sale is Coming to a Close Soon<\/strong>",
             "heading_size": "h2"
           }
         },
-        "text_KaTqcU": {
+        "text_jXmQbn": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "2Days20Hours59Minutes54",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
         "heading_Vmd769",
-        "text_KaTqcU"
+        "text_jXmQbn"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_59a13903-0846-475c-a1e5-bea376b029c8.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "top-left",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
