@@ -107,7 +107,7 @@
         "text_jXmQbn": {
           "type": "text",
           "settings": {
-            "text": "2Days20Hours59Minutes54",
+            "text": "<strong>2Days 20Hours  59Minutes 54 Seconds<\/strong>",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -127,6 +127,9 @@
         "heading_Vmd769",
         "text_jXmQbn",
         "buttons_cy8and"
+      ],
+      "custom_css": [
+        "h2 {color: #fff;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_59a13903-0846-475c-a1e5-bea376b029c8.jpg",
