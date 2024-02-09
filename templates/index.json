@@ -129,8 +129,8 @@
         "buttons_cy8and"
       ],
       "custom_css": [
-        "h2 {color: #fff; font-size: 25px;}",
-        "p {color: #fff; margin-top: 20px; font-size: 25px;}"
+        "h2 {color: #fff; font-size: 20px;}",
+        "p {color: #fff; margin-top: 20px; font-size: 35px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_59a13903-0846-475c-a1e5-bea376b029c8.jpg",
