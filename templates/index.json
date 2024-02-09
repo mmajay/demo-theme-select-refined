@@ -186,11 +186,23 @@
             "text": "2Days20Hours59Minutes54",
             "text_style": "caption-with-letter-spacing"
           }
+        },
+        "buttons_cy8and": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_Vmd769",
-        "text_jXmQbn"
+        "text_jXmQbn",
+        "buttons_cy8and"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_59a13903-0846-475c-a1e5-bea376b029c8.jpg",
