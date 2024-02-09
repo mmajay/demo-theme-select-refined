@@ -40,60 +40,6 @@
         "padding_bottom": 64
       }
     },
-    "custom_collections_list_7ginNC": {
-      "type": "custom-collections-list",
-      "blocks": {
-        "slide_BNptDp": {
-          "type": "slide",
-          "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
-            "collection_title": "Shirts",
-            "collection_title_link": "#"
-          }
-        },
-        "slide_yWEQ7R": {
-          "type": "slide",
-          "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
-            "collection_title": "T-Shirts",
-            "collection_title_link": "#"
-          }
-        },
-        "slide_qhUjxd": {
-          "type": "slide",
-          "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
-            "collection_title": "Bottoms",
-            "collection_title_link": ""
-          }
-        },
-        "slide_3rbThY": {
-          "type": "slide",
-          "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
-            "collection_title": "Tops",
-            "collection_title_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_BNptDp",
-        "slide_yWEQ7R",
-        "slide_qhUjxd",
-        "slide_3rbThY"
-      ],
-      "settings": {
-        "section_heading": "Shop by Categories",
-        "show_all_text": "See All",
-        "show_all_button_link": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_nMxYWQ": {
       "type": "image-banner",
       "blocks": {
@@ -222,6 +168,60 @@
         "padding_bottom": 64
       }
     },
+    "custom_collections_list_7ginNC": {
+      "type": "custom-collections-list",
+      "blocks": {
+        "slide_BNptDp": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/07-shirts-hover.jpg",
+            "collection_title": "Shirts",
+            "collection_title_link": "#"
+          }
+        },
+        "slide_yWEQ7R": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05-t_shirts-hover.jpg",
+            "collection_title": "T-Shirts",
+            "collection_title_link": "#"
+          }
+        },
+        "slide_qhUjxd": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/07-bottoms-hover.jpg",
+            "collection_title": "Bottoms",
+            "collection_title_link": ""
+          }
+        },
+        "slide_3rbThY": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/04-tops-hover.jpg",
+            "collection_title": "Tops",
+            "collection_title_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_BNptDp",
+        "slide_yWEQ7R",
+        "slide_qhUjxd",
+        "slide_3rbThY"
+      ],
+      "settings": {
+        "section_heading": "Shop by Categories",
+        "show_all_text": "See All",
+        "show_all_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_bpWkM9": {
       "type": "featured-collection",
       "settings": {
@@ -254,9 +254,9 @@
   "order": [
     "custom_image_with_text_yhCBHJ",
     "custom_products_slider_c4VVKK",
-    "custom_collections_list_7ginNC",
     "image_banner_nMxYWQ",
     "custom_brands_MBXwJw",
+    "custom_collections_list_7ginNC",
     "featured_collection_bpWkM9"
   ]
 }
