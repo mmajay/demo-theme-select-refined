@@ -58,9 +58,9 @@
         </div>
       </div>
       <div class="grid__item">
-        {% for product in all_products[blocks.settings.product] %}
+        {% for  block in section.blocks  %}
+          {% assign product = all_products[block.settings.product].title %}
           {{ product }}
-          
         {% endfor %}  
       </div>
     </div>
