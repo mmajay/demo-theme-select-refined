@@ -29,6 +29,12 @@
 
 {% endstyle %}
 
+{% capture sliderOptions %}
+  {
+  "autoplay" : true
+  }
+{% endcapture %}  
+
 
 
 <div class="shop-look padding-{{ section.id }}" >
@@ -62,7 +68,7 @@
       </div>
       <div class="grid__item">
         <custom-slider>        
-          <section class="splide" aria-label="Splide Basic HTML Example">
+          <section class="splide" aria-label="Splide Basic HTML Example" data-slider-options="{{ sliderOptions }}">
             <div class="splide__track">
       		<ul class="splide__list">
                 {% for  block in section.blocks  %}
