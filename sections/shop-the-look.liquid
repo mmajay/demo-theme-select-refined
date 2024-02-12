@@ -17,8 +17,9 @@
     background-color: {{ section.settings.section_background }}
   }
 
-  {% for block in section.blocks.settings %}
+  {% for block in section.blocks %}
       .shop-look__postion-{{ block.id }}{
+        top : {{ block.settings.left_position }}%;
         
       }
   {% endfor %}
