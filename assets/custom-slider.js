@@ -2,10 +2,9 @@ class CustomSlider extends HTMLElement {
   constructor() {
     super();
     this.splideEl = this.querySelector(".splide");
-    this.options = JSON.parse(this.querySelector(['dataset.sliderOptions']))
     
     this.mountSplider();
-    console.log(this.options)
+    console.log("logging")
   }
 
   mountSplider() {
