@@ -2,6 +2,7 @@
   "sections": {
     "custom_image_with_text_yhCBHJ": {
       "type": "custom-image-with-text",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/hero-image.webp",
         "mobile_image": "shopify:\/\/shop_images\/hero-image.webp",
@@ -22,6 +23,7 @@
     },
     "custom_products_slider_c4VVKK": {
       "type": "custom-products-slider",
+      "disabled": true,
       "settings": {
         "section_heading": "Individual Styles Redefined",
         "product_list": [
@@ -74,6 +76,7 @@
         "text_jXmQbn",
         "buttons_cy8and"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #fff; font-size: 20px;}",
         "p {color: #fff; margin-top: 20px; font-size: 35px;}"
@@ -162,6 +165,7 @@
         "slide_Uy6Yyy",
         "slide_fW4AX3"
       ],
+      "disabled": true,
       "settings": {
         "section_heading": "FEATURED BRANDS",
         "padding_top": 0,
@@ -214,6 +218,7 @@
         "slide_qhUjxd",
         "slide_3rbThY"
       ],
+      "disabled": true,
       "settings": {
         "section_heading": "Shop by Categories",
         "show_all_text": "See All",
@@ -224,6 +229,7 @@
     },
     "featured_collection_bpWkM9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
