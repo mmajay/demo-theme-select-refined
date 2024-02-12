@@ -58,16 +58,18 @@
         </div>
       </div>
       <div class="grid__item">
-        <section class="splide" aria-label="Splide Basic HTML Example">
-  <div class="splide__track">
-		<ul class="splide__list">
-        {% for  block in section.blocks  %}
-          {% assign product = all_products[block.settings.product] %}
-          <li class="splide__slide">{{ product.title }}</li>
-        {% endfor %}  
-		</ul>
-  </div>
-</section>
+        <custom-splide>        
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+      		<ul class="splide__list">
+                {% for  block in section.blocks  %}
+                  {% assign product = all_products[block.settings.product] %}
+                    <li class="splide__slide">{{ product.title }}</li>
+                {% endfor %}  
+      		</ul>
+            </div>
+          </section>
+        </custom-splide>
       </div>
     </div>
   </div>
