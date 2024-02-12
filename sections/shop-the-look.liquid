@@ -15,6 +15,12 @@
     background-color: {{ section.settings.section_background }}
   }
 
+  {% for block in section.blocks.settings %}
+      .shop-look__postion-{{ block.id }}{
+        
+      }
+  {% endfor %}
+
 {% endstyle %}
 
 
@@ -25,11 +31,11 @@
       <div class="grid__item">
         <div class="shop-look__image">
         {% if section.settings.image != blank %}
-        {% render "responsive-image" 
-        desktopImage : section.settings.image, 
-        mobileImage : section.settings.image_mobile
-        class : "media media--square"
-        %}
+          {% render "responsive-image" 
+            desktopImage : section.settings.image, 
+            mobileImage : section.settings.image_mobile
+            class : "media media--square"
+          %}
         {% else
           <div class="media media--square">
             {{ "image" | placeholder_svg_tag }}
