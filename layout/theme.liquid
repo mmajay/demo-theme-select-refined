@@ -7,8 +7,7 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
 
-    {{ "splide.min.css" | asset_url | stylesheet_tag }}
-    <script src="{{ "splide.min.js" | asset_url }}"  defer></script>
+ 
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -37,6 +36,10 @@
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+       {{ "splide.min.css" | asset_url | stylesheet_tag }}
+    <script src="{{ "splide.min.js" | asset_url }}"  defer></script>
+    
 
     {{ content_for_header }}
 
