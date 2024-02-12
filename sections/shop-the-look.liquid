@@ -19,7 +19,7 @@
 
   {% for block in section.blocks %}
       .shop-look__postion-{{ block.id }}{
-        top : {{ block.left_position }}%;
+        top : {{ block.settings.top_position }}%;
       }
   {% endfor %}
 
