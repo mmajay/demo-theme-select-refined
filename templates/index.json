@@ -249,6 +249,15 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "shop_the_look_HdUdn3": {
+      "type": "shop-the-look",
+      "settings": {
+        "section_background": "#f5f5f7",
+        "section_heading": "Look of the Day",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -257,6 +266,7 @@
     "image_banner_nMxYWQ",
     "custom_brands_MBXwJw",
     "custom_collections_list_7ginNC",
-    "featured_collection_bpWkM9"
+    "featured_collection_bpWkM9",
+    "shop_the_look_HdUdn3"
   ]
 }
