@@ -253,26 +253,26 @@
     "shop_the_look_HdUdn3": {
       "type": "shop-the-look",
       "blocks": {
-        "product_content_LP47kX": {
+        "product_content_ifHMLx": {
           "type": "product-content",
           "settings": {
-            "product": "",
-            "left_position": 20,
-            "top_position": 20
+            "product": "highland-tee-worn-black",
+            "left_position": 80,
+            "top_position": 50
           }
         },
-        "product_content_AnHkGb": {
+        "product_content_g4F3cN": {
           "type": "product-content",
           "settings": {
-            "product": "jude-navy-chevron-shirt",
-            "left_position": 20,
-            "top_position": 34
+            "product": "lean-dean-plain-stone",
+            "left_position": 24,
+            "top_position": 78
           }
         }
       },
       "block_order": [
-        "product_content_LP47kX",
-        "product_content_AnHkGb"
+        "product_content_ifHMLx",
+        "product_content_g4F3cN"
       ],
       "settings": {
         "section_background": "#f5f5f7",
