@@ -1,9 +1,6 @@
-
-
-
 {% schema %}
   {
-    "name": "Image With Product Slider",
+    "name": "Shop the look",
     "tag": "section",
     "class" : "Image-with-product-slider",
     "settings": [
@@ -38,8 +35,12 @@
       {
         "type" : "image_picker",
         "id" : "image",
-        "label" : "Uplaod Image",
-        "info" : "Image Size Should be 650 X 650"
+        "label" : "Image"
+      },
+      {
+        "type" : "image_picker",
+        "id" : "image_mobile",
+        "label" : "Image (Mobile)"
       },
       {
         "type" : "text",
@@ -69,7 +70,7 @@
     ],
     "presets" : [
       {
-        "name" : "Image With Product Slider"
+        "name" : "Shop the look"
       }
     ]
   }
