@@ -4,4 +4,6 @@
 
 .shop-look__dots{
   position:absolute;
+  padding:5px;
+  background : #fff
 }
