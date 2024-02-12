@@ -23,7 +23,7 @@
   <div class="page-width">
     <div class="grid grid--1-col grid--2-col-tablet grid-2-col-desktop background-{{ section.id }}">
       <div class="grid__item">
-        <div class="shop-look__image">>
+        <div class="shop-look__image">
         {% if section.settings.image != blank %}}
         {% render "responsive-image" 
           desktopImage : section.settings.image, 
@@ -64,7 +64,7 @@
         "type" : "text",
         "id" : "section_heading",
         "label" : "Section Heading",
-        "label" : "Look of the Day"
+        "default" : "Look of the Day"
       },
       {
         "type": "range",
