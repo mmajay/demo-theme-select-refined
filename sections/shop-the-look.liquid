@@ -24,9 +24,9 @@
     <div class="grid grid--1-col grid--2-col-tablet grid-2-col-desktop background-{{ section.id }}">
       <div class="grid__item">
         <div class="shop-look__image">
-        {% if section.settings.image != blank %}}
+        {% if section.settings.image != blank %}
         {% render "responsive-image" 
-          desktopImage : section.settings.image, 
+        desktopImage : section.settings.image, 
         mobileImage : section.settings.image_mobile
         %}
         {% else
