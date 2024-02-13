@@ -17,7 +17,9 @@
 <div class="custom-brands padding-{{ section.id }}">
   <div class="page-width">
     <div class="custom-brands">
-      <h2 class="h4 custom-brands__section-heading">{{ section.settings.section_heading }}</h2>
+      {% if section.settings.section_heading != blank %}
+        <h2 class="h4 custom-brands__section-heading">{{ section.settings.section_heading }}</h2>
+      {% endif %}
     </div>
     <div class="custom-brands__image-container">
       {% for block in section.blocks %}
